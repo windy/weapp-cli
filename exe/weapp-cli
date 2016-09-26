@@ -1,0 +1,4 @@
+require 'thor'
+require 'weapp/cli'
+
+Weapp::Cli::App.start
