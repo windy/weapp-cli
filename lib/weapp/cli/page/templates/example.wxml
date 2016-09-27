@@ -1,0 +1,3 @@
+<view class="container">
+  <text>Find me in `<%= @wxml_path %>`</text>
+</view>

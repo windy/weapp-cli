@@ -1,4 +1,13 @@
 require 'thor'
 require 'weapp/cli'
 
-Weapp::Cli::App.start
+if ['help', '-h', '--help'].include?(ARGV.first)
+  puts 'help'
+  exit 0
+end
+
+if ARGV.shift == 'new'
+  Weapp::Cli::App.start(ARGV)
+else
+  Weapp::Cli::Page.start(ARGV)
+end
