@@ -52,12 +52,12 @@ With `weapp-cli`, you can focus on your bussiness logic at weapp development.
 
 ## Roadmap
 
-[x] New project
-[x] New page
-[ ] Help
-[ ] Support ES6
-[ ] Add wiki for it
-[ ] Add more test
+- [x] New project
+- [x] New page
+- [ ] Help
+- [ ] Support ES6
+- [ ] Add wiki for it
+- [ ] Add more test
 
 
 ## Contributing
