@@ -20,7 +20,7 @@ $ weapp-cli new project
 it will generate files like this:
 
 ```bash
-➜  workspace weapp-cli new project
+$ weapp-cli new project
 create  project/README.md
 create  project/app.json
 create  project/app.js
@@ -41,7 +41,7 @@ $ weapp-cli page page1
 it will generate files like this:
 
 ```bash
-➜  project weapp-cli page page1
+$ weapp-cli page page1
 create  pages/page1/page1.js
 create  pages/page1/page1.wxml
 create  pages/page1/page1.wxss
